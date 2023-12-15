@@ -1,0 +1,64 @@
+.content {
+    height: 560px;
+    position: relative;
+    margin-left: 135px;
+    margin-right: 135px;
+    margin-top: 50px;
+}
+
+.image1, .image2, .image3 {
+    position: absolute;   
+}
+
+.image2 {
+    top: 10px;
+    width: 300px;
+}
+
+.image1 {
+    top: 320px;
+    width: 300px;;
+    
+}
+
+.image3 {
+    left: 320px;
+    top: 50px;
+    width: 300px;
+}
+
+.header {
+    position: absolute;
+    font-size: 60px;
+    color: rgb(0, 0, 0, 0.6);
+    line-height: 60px;
+    text-transform: uppercase;
+    left: 670px;
+    font-weight: 300;
+    top: 60px;
+}
+.word {
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    left: 670px;
+    top: 125px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-weight: 300px;
+}
+
+.about-btn {
+    position: absolute;
+    text-transform: uppercase;
+    border: none;
+    background: none    ;
+    left: 760px;
+    top: 370px;
+    padding: 25px 20px;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}

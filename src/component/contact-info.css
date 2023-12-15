@@ -1,0 +1,79 @@
+.contact-info {
+    position: relative;
+    width: 1100px;
+    height: 600px;
+    margin-top: 50px;
+    margin-left: 135px;
+    margin-right: 135px;
+}
+
+.header3 {
+    font-size: 70px;
+    color: grey;
+    opacity: 0.6;
+    font-weight: 300;
+    line-height: 70px;
+    letter-spacing: 3px;
+}
+
+.container1 {
+    padding: 0;
+    position: absolute;
+    max-width: 391px;
+    top: 85px;
+    border: none;
+    float: left;
+}
+
+input[type=text] {
+    width: 391px;
+    height: 45px;
+}
+
+textarea[id=message] {
+    width: 391px;
+    height: 147px;
+}
+
+input[type=text] , textarea[id=message] {
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text] , textarea[id=message]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.contact-image {
+    position: absolute;
+    left: 400px;
+    top: 85px;
+}
+
+.contact-image, .image12 {
+    width: 649px;
+    height: 439px;
+}
+
+.contact-btn {
+    background-color: black;   
+    color: white;
+    width: 221.81px;
+    height: 71px;
+    top: 85%;
+    border: none;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+    display: none;
+}
+
+.contact-btn span {
+    margin: 10px;
+}

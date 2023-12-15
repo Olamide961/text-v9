@@ -1,0 +1,62 @@
+.focus {
+    height: 300px;
+    position: relative;
+    margin-left: 135px;
+    margin-right: 135px;
+
+}
+
+.para {
+    position: absolute;
+    width: 900px;
+    height: 55px;
+    font-size: 50px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    color: rgba(136, 131, 131, 0.5);
+    line-height: 50px;
+    font-weight: 300;
+}
+
+.column {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.col-1, .col-4 {
+    flex: 50%;
+}
+
+.header1, .header2 {
+    font-size: 240px;
+    width: 120px;
+    height: 144px;
+    color: rgba(136, 131, 131, 0.4)
+}
+
+.lorem {
+    position: absolute;
+    left: 115px;
+    font-size: 20px;
+    line-height: 20px;
+    width: 279px;
+    letter-spacing: 2px;
+    height: 144px;
+    font-weight: 400;
+    top: 80px;
+}
+
+.lorem1  {
+    position: absolute;
+    left: 645px;
+    font-size: 20px;
+    line-height: 20px;
+    width: 379px;
+    letter-spacing: 2px;
+    height: 144px;
+    font-weight: 400;
+    top: 80px;
+}
+
